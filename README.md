@@ -14,8 +14,10 @@ or
 deepleaf_api_flutter:
     git:
       url: https://github.com/Chiakyyy/deepleaf_api_flutter.git
-
-// Then run flutter pub get
+```
+// Then run
+```sh
+flutter pub get
 ```
 ## Usage
 
