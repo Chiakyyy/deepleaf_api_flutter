@@ -7,7 +7,7 @@ haha
 ```sh
 flutter pub add deepleaf_ai_flutter
 ```
-or
+OR
 
 ```sh
 // Add to pubspec.yaml under dependencies
@@ -15,7 +15,7 @@ deepleaf_api_flutter:
     git:
       url: https://github.com/Chiakyyy/deepleaf_api_flutter.git
 ```
-// Then run
+Then run
 ```sh
 flutter pub get
 ```
