@@ -4,17 +4,20 @@ haha
 
 ## Installation
 
+If the package has been published to pub.dev
 ```sh
 flutter pub add deepleaf_ai_flutter
 ```
-OR
+
+ELSE
 
 ```sh
-// Add to pubspec.yaml under dependencies
+// Add to the pubspec.yaml file under dependencies
 deepleaf_api_flutter:
     git:
       url: https://github.com/Chiakyyy/deepleaf_api_flutter.git
 ```
+
 Then run
 ```sh
 flutter pub get
