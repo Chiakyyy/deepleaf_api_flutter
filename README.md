@@ -7,7 +7,14 @@ haha
 ```sh
 flutter pub add deepleaf_ai_flutter
 ```
+or
 
+```sh
+// Add to pubspec.yaml under dependencies
+deepleaf_api_flutter:
+    git:
+      url: https://github.com/Chiakyyy/deepleaf_api_flutter.git
+```
 ## Usage
 
 
