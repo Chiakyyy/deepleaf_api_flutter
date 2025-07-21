@@ -1,7 +1,7 @@
 name: deepleaf_api_flutter
 description: "A plugin to integrate the DeepLead API into Flutter applications."
 version: 0.0.1
-homepage:
+homepage: https://github.com/Chiakyyy/deepleaf_api_flutter.git
 
 environment:
   sdk: ^3.8.1
