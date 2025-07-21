@@ -1,15 +1,39 @@
-# deepleaf_api_flutter
+# deepleaf-api-flutter
 
-A new Flutter plugin project.
+haha
 
-## Getting Started
+## Installation
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/to/develop-plugins),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+```sh
+flutter pub add deepleaf_ai_flutter
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Usage
 
+
+```js
+import 'package:deepleaf_api_flutter/deepleaf_api_flutter.dart';
+
+const String apiKey = "YOUR_API_KEY";
+
+// Initialize DeepLeaf API
+final api = DeepleafApiFlutter(
+  apiKey: apiKey,
+  language: "en"
+  );
+
+final response = await api.getAPIUsage();
+```
+
+
+## Contributing
+
+See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
+
+## License
+
+MIT
+
+---
+
+Made with [flutter documentation](https://docs.flutter.dev/packages-and-plugins/developing-packages)
