@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
 import 'package:http_parser/http_parser.dart';
-
+import 'types.dart';
 
 class DeepleafApiFlutter {
   
@@ -52,5 +52,9 @@ class DeepleafApiFlutter {
     final uri = Uri.parse("https://api.deepleaf.io/usage?api_key=$apiKey");
       final response = await http.get(uri);
       return response;
+  }
+
+  static bool isSuccessful(DeepLeafResponse response) {
+    return response is SuccessResponse && response.data.diagnosesDetected;
   }
 }
