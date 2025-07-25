@@ -1,6 +1,6 @@
 # deepleaf-api-flutter
 
-haha
+Package to make use of DeepLeaf's API.
 
 ## Installation
 
