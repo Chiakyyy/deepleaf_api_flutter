@@ -5,10 +5,7 @@ Package to make use of DeepLeaf's API.
 ## Installation
 
 ```sh
-// Add to the pubspec.yaml file under dependencies
-deepleaf_api_flutter:
-    git:
-      url: https://github.com/Chiakyyy/deepleaf_api_flutter.git
+flutter pub add deepleaf_api_flutter
 ```
 Then run
 ```sh
